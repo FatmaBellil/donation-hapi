@@ -1,4 +1,4 @@
-export const serviceUrl = "http://localhost:3000";
+export const serviceUrl = "http://localhost:4000";
 
 export const maggie = {
   firstName: "Maggie",
@@ -30,5 +30,31 @@ export const testUsers = [
     lastName: "Simpson",
     email: "bart@simpson.com",
     password: "secret",
+  },
+];
+
+export const testCandidates = [
+  {
+    firstName: "Lisa",
+    lastName: "Simpson",
+  },
+  {
+    firstName: "Maggie",
+    lastName: "Simpson",
+  },
+];
+
+export const testDonations = [
+  {
+    amount: 90,
+    method: "cash",
+  },
+  {
+    amount: 80,
+    method: "cash",
+  },
+  {
+    amount: 50,
+    method: "paypal",
   },
 ];

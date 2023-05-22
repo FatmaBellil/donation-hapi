@@ -1,7 +1,7 @@
 import { assert } from "chai";
-import { assertSubset } from "./test-utils.js";
+import { assertSubset } from "../test-utils.js";
 import { donationService } from "./donation-service.js";
-import { maggie, maggieCredentials, testUsers } from "./fixtures.js";
+import { maggie, maggieCredentials, testUsers } from "../fixtures.js";
 
 const users = new Array(testUsers.length);
 

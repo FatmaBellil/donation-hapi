@@ -1,0 +1,12 @@
+Slots
+These are the 5 routes defined in our application:
+
+http://localhost:5173/
+http://localhost:5173/login
+http://localhost:5173/signup
+http://localhost:5173/report
+http://localhost:5173/donate
+
+---
+To verify that we have defined these new models objects correctly, the database seeding mechanism can be useful first port of call
+---
